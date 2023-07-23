@@ -34,7 +34,7 @@ Note: This command should be run in the directory containing the `build.sbt` fil
 
 #### Running C++ Code
 ```bash
-g++ -o your_program your_file.cpp
+g++ -std=c++14 -o your_program your_file.cpp
 ./your_program
 ```
 Replace "your_file.cpp" with the name of the file you wish to compile, and "your_program" with the name of the output program.
